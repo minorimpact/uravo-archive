@@ -1,0 +1,3 @@
+* * * * * root /bin/touch /var/run/crond.running
+22 */6 * * * root /usr/local/uravo/bin/update_uravo.pl > /tmp/update_uravo.pl 2>&1
+*/5 * * * * root /usr/local/uravo/bin/agent.pl > /tmp/agent.pl.log 2>&1

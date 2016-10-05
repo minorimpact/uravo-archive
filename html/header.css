@@ -1,0 +1,13 @@
+A.NAV:link { color:white;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px;font-weight:bold }
+A.NAV:active { color:blue;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px;font-weight:bold }
+A.NAV:visited { color:white;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px;font-weight:bold }
+A.NAV:hover { color:white;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px;font-weight:bold }
+
+P,TD { color:black;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:13px }
+H3 { color:black;text-decoration:underline;font-family:arial,sans-serif,helvetica }
+.FOOTER { color:black;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:10px }
+.MORE { color:red;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px;font-weight:bold }
+A.SITE:link { color:#FF6600;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px;font-weight:bold }
+A.SITE:active { color:#FF6600;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px;font-weight:bold }
+A.SITE:visited { color:#FF6600;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px;font-weight:bold }
+A.SITE:hover { color:#FF6600;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px;font-weight:bold }
