@@ -1,0 +1,50 @@
+body { font-family: sans-serif; font-size:medium}
+
+div.sDomFilter { float:right}
+div.sDomInfo { float: left; }
+div.sDomLink { float: left; }
+
+#event_list_table { border-spacing: 0; }
+#event_list_table td { border: 1px double grey; }
+tr.DTTT_selected.critical { background: #FFFFFF; color: black; }
+tr.DTTT_selected.critical.acked { background: #FFFFFF; color: black; }
+tr.critical { background: #FF0000; color: black; }
+tr.acked.critical { background: #CD0000; color:white; }
+
+tr.DTTT_selected.major { background: #FFFFFF; color: #000000; }
+tr.DTTT_selected.major.acked { background: #FFFFFF; color: #000000; }
+tr.DTTT_selected.major.purple { background: #FFFFFF; color: #000000; }
+tr.DTTT_selected.major.acked.purple { background: #FFFFFF; color: #000000; }
+
+tr.major { background: #ffA500; color: black }
+tr.acked.major { background: #CD6900; color: white; }
+tr.major.purple { background: #CC33FF; color: black; }
+tr.acked.major.purple { background: #9900CC; color: white; }
+
+tr.DTTT_selected.minor { background: #FFFFFF; color: #000000; }
+tr.DTTT_selected.minor.acked { background: #FFFFFF; color: #000000; }
+tr.minor { background: #FFFF00; color: black; }
+tr.acked.minor { background: #CDCD00; color: white; }
+
+tr.DTTT_selected.warning { background: #FFFFFF; color: #000000; }
+tr.DTTT_selected.warning.acked { background: #FFFFFF; color: #000000; }
+tr.warning { background: #63B8FF; color: black; }
+tr.acked.warning { background: #4F94CD; color: white; }
+
+tr.DTTT_selected.indeterminate { background: #FFFFFF; color: #000000; }
+tr.DTTT_selected.indeterminate.acked { background: #FFFFFF; color: #000000; }
+tr.indeterminate { background: #CCCCCC; color: black; }
+tr.acked.indeterminate { background: #999999; color: white; }
+
+tr.DTTT_selected.clear { background: #FFFFFF; color: #000000; }
+tr.DTTT_selected.clear.acked { background: #FFFFFF; color: #000000; }
+tr.clear { background: #00CD00; color: black; }
+tr.acked.clear { background: #008B00; color: white; }
+
+#div.dataTables_scroll { clear: both; }
+
+table.dataTable thead th {
+    border-right: 3px double black;
+}
+
+
